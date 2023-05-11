@@ -1,0 +1,195 @@
+.container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.nav-item a {
+  color: black;
+  font-size: larger;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin: 40px 10%;
+}
+
+.side-text {
+  margin: 80px 40px;
+}
+
+.side-text p {
+  font-size: x-large;
+}
+
+.welcome {
+  text-align: center;
+  width: 60%;
+  margin: 100px 20%;
+}
+
+.welcome p {
+  font-size: x-large;
+}
+
+.background-container {
+  background: linear-gradient(lightblue, orange);
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.banner {
+  background: white;
+  width: 60%;
+  height: 190px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 20%;
+  margin: -50px 0 0 -50px;
+  text-align: center;
+  padding: 40px;
+  font-size: large;
+}
+
+.product {
+  margin: 50px 20%;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  margin-top: 30px;
+}
+
+.discount {
+  text-decoration: line-through;
+  background-color: rgb(193, 193, 193);
+  margin-right: 5px;
+}
+
+.sale {
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  padding: 3px 15px;
+  border-radius: 30px;
+  font-size: small;
+  margin-left: 5px;
+}
+
+.buy-button {
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  color: white;
+  background: blue;
+  border: none;
+}
+
+.view-more {
+  float: left;
+  margin-right: 7px;
+  margin-top: 20px;
+  bottom: 1;
+  color: black;
+  text-decoration: none;
+}
+
+.boxes {
+  width: 80%;
+  margin: 50px 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  padding: 20px;
+  background: rgb(232, 232, 232);
+  margin: 10px;
+  width: 50%;
+}
+
+.box a {
+  color: black;
+  text-decoration: none;
+}
+
+.ft {
+  background-color: rgb(218, 218, 218);
+  width: 100%;
+  margin: 0;
+  padding: 40px 20%;
+}
+
+@media (max-width: 1114px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-container img {
+    width: 100%;
+  }
+
+  .welcome {
+    margin-top: -50px;
+  }
+
+  .background-container {
+    display: none;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .info {
+    margin-top: 20px;
+  }
+
+  .price {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .view-more {
+    float: right;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buy-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .box {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .box a {
+    float: right;
+  }
+
+  .ft {
+    margin-top: 50px;
+  }
+}
